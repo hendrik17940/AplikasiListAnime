@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:padding="5dp"
+    android:background="#ffff">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id Anime"
+        android:layout_weight="1"
+        android:textColor="#070781"
+        android:id="@+id/id_anime" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul              :"
+        android:layout_weight="1"
+        android:textColor="#070781"
+        android:id="@+id/judul" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Anime"
+            android:layout_weight="1"
+            android:textColor="#070781"
+            android:id="@+id/nama_film" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Rilis :"
+            android:layout_weight="1"
+            android:textColor="#070781"
+            android:id="@+id/tanggalrilis" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal_Rilis"
+            android:layout_weight="1"
+            android:textColor="#070781"
+            android:id="@+id/tanggal_rilis" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status            :"
+            android:layout_weight="1"
+            android:textColor="#070781"
+            android:id="@+id/statusanime" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:layout_weight="1"
+            android:textColor="#070781"
+            android:id="@+id/status" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Episode         :"
+            android:layout_weight="1"
+            android:textColor="#070781"
+            android:id="@+id/episodea1" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Episode"
+            android:layout_weight="1"
+            android:textColor="#070781"
+            android:id="@+id/episode" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sinopsis        :"
+        android:layout_weight="1"
+        android:textColor="#070781"
+        android:id="@+id/sinopsis_anime"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sinopsis"
+        android:layout_weight="1"
+        android:textColor="#070781"
+        android:id="@+id/sinopsis"/>
+
+</LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/cardview_light_background"/>
+
+
+</LinearLayout>
